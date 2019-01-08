@@ -15,10 +15,6 @@ Layout/AlignArray:
     - app/controllers/collections_controller.rb
     - app/jobs/wasapi_seed_job.rb
 
-Lint/Void:
-  Exclude:
-    - app/helpers/collections_helper.rb
-
 Metrics/AbcSize:
   Exclude:
     - app/controllers/collections_controller.rb
@@ -118,10 +114,6 @@ Style/BlockDelimiters:
     - app/helpers/dashboards_helper.rb
 
 Style/ClassAndModuleChildren:
-  Exclude:
-    - test/test_helper.rb
-
-Style/ExpandPathArguments:
   Exclude:
     - test/test_helper.rb
 
